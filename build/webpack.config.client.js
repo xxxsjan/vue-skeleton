@@ -7,7 +7,7 @@ const path = require("path")
 
 const devServer = {
     port: 8080,
-    host: "0.0.0.0",
+    // host: "0.0.0.0",
     // overlay: {
     //   errors: true,
     // },
@@ -18,6 +18,7 @@ const devServer = {
     //   index: '/public/index.html'
     // },//history模式手动刷新url会发送请求，出现错误
     hot: true,
+    open: true,
 }
 
 let config
